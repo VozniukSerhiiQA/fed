@@ -1,0 +1,150 @@
+body {
+    background-color: beige;
+    text-decoration: none;
+    font-size: 1em;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+h1 {
+    display: block;
+    clear: both;
+    margin: 20px;
+    
+}
+div#test1 {
+    height: 50px;
+    margin: 20px;
+   // background-color: brown;
+    padding: 10px;
+    
+    
+}
+
+input#showModal, input#hideModal  {
+    margin: 10px;
+    border: 1px solid green;
+    border-radius: 5px;
+    width: auto;
+    float: left;
+    padding: 10px;
+    background-color: aqua;
+}
+
+
+input#showModal:hover, input#hideModal:hover {
+    background-color: darkgreen;
+    color: azure;    
+}
+
+input#showModal:active, input#hideModal:active {
+    border: 2px dashed green;
+    
+}
+
+.modal {
+    opacity: 0;
+    visibility: hidden;
+    background-color: yellowgreen;
+    border: 1px solid green;
+    border-radius: 5px;
+    width: 200px;
+    float: right;
+    padding: 10px;
+    margin: 10px;
+    transition: all .35s ease;
+
+}
+
+.visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+/******************TEST 2*************************/
+.container2 {
+    background-color: azure;
+    margin-left: 20px;
+    border: 1px solid green;
+    border-radius: 0px; 
+    width: 200px;
+    height: auto;
+    position: relative;
+   
+}
+
+.list {
+    cursor: pointer;
+}
+
+.list ul {
+    margin: 0px; 
+}
+
+.container2 a {
+    text-decoration: none;
+	padding-left: 30px;
+}
+
+.toExpand {
+    margin-left: -1px;
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    padding-left: 10px;
+    width: 150px;
+    border: 1px solid green;
+    border-radius: 0px;
+    transition: all 0.5s ease;
+	border-right: none;
+    
+    
+}
+
+.expanded {
+    border-top: none;
+    opacity: 1;
+    visibility: visible;
+    background-color: azure;
+    position: relative;
+    border-bottom: none;
+    
+    
+    
+}
+
+
+.drop_down_list:before {
+    content: " ";
+    position: absolute;
+    border: 5px solid;
+    border-color: green transparent transparent transparent;
+    top:0.5em;
+    right: 0.9em;
+}
+
+
+
+/******************TEST 3*************************/
+.container3 {
+	margin: 20px;
+	text-align: center;	
+	border: 1px solid gray;
+    border-radius: 5px;
+    width: auto;
+    float: left;
+    background-color: gold;
+	padding: 20px 0 20px 0;
+	
+	
+	
+}
+.container3 a {
+	text-decoration: none;
+	padding: 20px 30px 20px 30px;
+}
+.container3:hover {
+	transition: all 0.8s ease;
+	border: 1px solid;
+  	border-radius: 15px;
+  	box-shadow: 5px 10px 18px red;
+}

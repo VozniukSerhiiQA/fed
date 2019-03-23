@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Section 2: JavaScript Language Basics</title>
+        <link rel="stylesheet" href="style.css"> 
+        <script src="jsfile.js"></script>
+        
+    </head>
+
+    <body>
+		<!--******************		TEST 1 ***************-->
+        <h1>Test work #1 <hr></h1>
+        <div id=test1>
+            <input type="button" id="showModal" value="Show modal window" onClick="showDiv('divMsg')"/>
+            
+            <input type="button" id="hideModal" value="Hide modal window" onClick="hideDiv('divMsg')"/>
+            <div id="divMsg" class="modal">
+                <span>Hello it's me</span>
+            </div>
+        </div>
+		<!--******************		TEST 2 ***************-->
+        <h1>Test work #2 <hr></h1>
+        <div id=test2></div>
+            <div class='container2'>
+                <div class='list'>
+                    <a class="drop_down_list" onclick="collapsExpand(event)">Test expanded text:</a>
+                    
+                    <div class='toExpand'>
+                        <ul>
+							<li>Test row 1</li>
+                            <li>Test row 2</li>
+                            <li>Test row 3</li>
+						</ul>    
+                    </div>
+                </div>    
+                
+            </div>
+
+<!--******************		TEST 3 ***************-->
+        <h1>Test work #3 <hr></h1>
+        <div id=test3></div>
+            <div class='container3'>
+				<a href="https://google.com" onclick="return showMsg()">Click Me!</a>
+			</div>
+                
+<!--******************		TEST 4***************-->		
+    <h1>Test work #4 <hr></h1>
+
+        <div class='container2'>
+            <div class='list'>
+                <a class="drop_down_list" onclick="collapsExpand(event)">Test expanded text:</a>
+
+                <div class='toExpand'>
+                    <ul>
+                        <li>Test row 1</li>
+                        <li>Test row 2</li>
+                        <li>Test row 3</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+		
+    </body>
+
+</html>
