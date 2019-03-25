@@ -23,7 +23,7 @@ function collapsExpand(event) {
 }
 
 //*****************************Test3
-function showMsg() {
+function showMsg(event) {
+    event.preventDefault();
 	console.log('Message!');
-	return false;
 }
