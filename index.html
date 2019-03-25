@@ -3,9 +3,9 @@
     <head>
         <meta charset="UTF-8">
         <title>Section 2: JavaScript Language Basics</title>
-        <link rel="stylesheet" href="style.css"> 
+        <link rel="stylesheet" href="style.css">
         <script src="jsfile.js"></script>
-        
+
     </head>
 
     <body>
@@ -13,7 +13,7 @@
         <h1>Test work #1 <hr></h1>
         <div id=test1>
             <input type="button" id="showModal" value="Show modal window" onClick="showDiv('divMsg')"/>
-            
+
             <input type="button" id="hideModal" value="Hide modal window" onClick="hideDiv('divMsg')"/>
             <div id="divMsg" class="modal">
                 <span>Hello it's me</span>
@@ -25,16 +25,16 @@
             <div class='container2'>
                 <div class='list'>
                     <a class="drop_down_list" onclick="collapsExpand(event)">Test expanded text:</a>
-                    
+
                     <div class='toExpand'>
                         <ul>
 							<li>Test row 1</li>
                             <li>Test row 2</li>
                             <li>Test row 3</li>
-						</ul>    
+						</ul>
                     </div>
-                </div>    
-                
+                </div>
+
             </div>
 
 <!--******************		TEST 3 ***************-->
@@ -43,25 +43,42 @@
             <div class='container3'>
 				<a href="https://google.com" onclick="showMsg(event)">Click Me!</a>
 			</div>
-                
-<!--******************		TEST 4***************-->		
-    <h1>Test work #4 <hr></h1>
 
-        <div class='container2'>
-            <div class='list'>
-                <a class="drop_down_list" onclick="collapsExpand(event)">Test expanded text:</a>
+<!--******************		TEST 4***************-->
+        <h1>Test work #4 <hr></h1>
 
-                <div class='toExpand'>
-                    <ul>
-                        <li>Test row 1</li>
-                        <li>Test row 2</li>
-                        <li>Test row 3</li>
-                    </ul>
+            <div class='container2'>
+                <div class='list'>
+                    <a class="drop_down_list" onclick="collapsExpand(event)">Test expanded text:</a>
+
+                    <div class='toExpand'>
+                        <ul>
+                            <li>Test row 1</li>
+                            <li>Test row 2</li>
+                            <li>Test row 3</li>
+                        </ul>
+                    </div>
                 </div>
+
             </div>
 
+<!--******************		TEST 5***************-->
+        <h1>Test work #5<hr></h1>
+
+        <div class='container5'>
+            <div class="tofill">
+                <div class="filling">
+                    <p>Button</p>
+                </div>
+            </div>
         </div>
-		
+<!--******************		TEST 5***************-->
+        <h1>Test work #6<hr></h1>
+
+        <div class='container6'> Value will be transformed to Upper case:
+            <input type="text" onchange="change6()" placeholder="Input here text" id="element6">
+        </div>
+
     </body>
 
 </html>

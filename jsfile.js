@@ -27,3 +27,8 @@ function showMsg(event) {
     event.preventDefault();
 	console.log('Message!');
 }
+//*****************************Test6
+function change6() {
+    var x = document.getElementById('element6');
+    x.value = x.value.toUpperCase();
+}
