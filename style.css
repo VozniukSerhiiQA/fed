@@ -203,3 +203,14 @@ input#showModal:active, input#hideModal:active {
     padding-left: 10px;
     border: 1px solid #61edbe;
 }
+/******************TEST 6*************************/
+.container7 {
+    margin-left: 20px;
+}
+.container7 input {
+    padding-left: 10px;
+    border: 1px solid #61edbe;
+}
+.container7 input:focus {
+    background-color: #61edbe;
+}

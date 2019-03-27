@@ -32,3 +32,4 @@ function change6() {
     var x = document.getElementById('element6');
     x.value = x.value.toUpperCase();
 }
+//*****************************Test7
