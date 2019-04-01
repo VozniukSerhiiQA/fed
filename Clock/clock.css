@@ -1,0 +1,23 @@
+body {
+    background-color: beige;
+    text-decoration: none;
+    font-size: 1em;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+h1 {
+    display: block;
+    clear: both;
+    margin: 20px;
+    
+}
+h5 {
+    margin: 10px 10px 10px 20px;
+}
+
+div {
+    height: 50px;
+    width: 100px;
+    padding: 10px;
+    
+}
