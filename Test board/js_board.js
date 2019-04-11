@@ -24,7 +24,7 @@ function black() {
                 }
             //append cells to the rows
             row.appendChild(cell);
-            //set index     
+            //set index
             cell.innerHTML =id;
         }
 
